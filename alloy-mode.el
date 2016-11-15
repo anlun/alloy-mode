@@ -274,7 +274,7 @@ This is a good place to add Alloy environment specific bindings.")
     comment-column          40
     comment-indent-function 'java-comment-indent
     indent-line-function    'alloy-indent-line
-    indent-tabs-mode        t)
+    indent-tabs-mode        f)
   (use-local-map alloy-mode-map))
 
 (add-to-list 'auto-mode-alist '("\\.als\\'" . alloy-mode))
